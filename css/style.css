@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow: hidden;
+    height: 100vh;
+}
+
+.taskbar{
+    background-color: #f3f3f3;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    z-index: 110;
+    justify-content: center;
+}
+
+.startmenu{
+    position: absolute; 
+    /* bottom: 50px; */
+    bottom: -655px;
+    width: 100%;
+    z-index: 1;
+    text-align: center;
+    transition: all 0.3s ease-in; 
+}
+
+.startmenu img{
+    border-radius: 8px;
+    height: 37.5em;
+}
+
+.right{
+    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+    margin: 6px 0;
+    height: 85%;
+}  
+
+.section img{
+    position: relative;
+    margin-top: 45px;
+    left: 57px;
+    width: 5em;
+}
+
+.video-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#vid{
+    width: 100%;
+}
+
+span {
+    font-family: sans-serif;
+    position: relative;
+    top: 10px;
+    left: 52px;
+    font-size: smaller;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+img.edge {
+    width: 2.7em;
+    left: 75px;
+}
+
+span.rbin {
+    left: 63px;
+}
+
+img.bin{
+    width: 3.3em;
+    left: 70px;
+}
